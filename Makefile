@@ -1,4 +1,4 @@
-VIMDIR=/Users/zimnukhov/tmp/vim
+VIMDIR=$(HOME)
 BUILDDIR=build
 LOAD_MODULE=git submodule update --init
 
