@@ -1,0 +1,15 @@
+[submodule "modules/file-line"]
+	path = modules/file-line
+	url = https://github.com/bogado/file-line
+[submodule "modules/molokai"]
+	path = modules/molokai
+	url = https://github.com/tomasr/molokai
+[submodule "modules/vim-pathogen"]
+	path = modules/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule "modules/vim-go"]
+	path = modules/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "modules/tagbar"]
+	path = modules/tagbar
+	url = https://github.com/majutsushi/tagbar
