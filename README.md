@@ -2,7 +2,8 @@
 My vim environment
 
 ## Installation
-To install vim environment execute the following commands. *Warning!* This will overwrite .vimrc and add files to .vim/ in your home directory.
+To install vim environment execute the following commands.
+**Warning!** This will overwrite .vimrc and add files to .vim/ in your home directory.
 
     git clone https://github.com/zimnukhov/vimrc
     cd vimrc
