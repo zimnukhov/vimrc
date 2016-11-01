@@ -41,8 +41,12 @@ set tabstop=4
 set expandtab
 set autoindent
 
-" better indentation for python (better than smartindent)
+" better indentation for python
+filetype indent on
+
+" cindent is still needed for some files (e.g. .proto)
 set cindent
+
 let python_highlight_all = 1
 
 " use one level of indentation after open parenthesis
