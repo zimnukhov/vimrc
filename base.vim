@@ -74,6 +74,10 @@ inoremap <tab> <C-n>
 highlight Pmenu ctermfg=1 ctermbg=4 guibg=grey30
 highlight PmenuSel ctermfg=4 ctermbg=1
 set ignorecase
+
+" double slash to search for visually selected text
+vnoremap // y/<C-R>"<CR>
+
 " use /g in substitution by default
 " set gdefault
 
