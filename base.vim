@@ -29,8 +29,23 @@ nnoremap k gk
 nnoremap ; :
 
 " tab navigation
+" hl:
+nnoremap <C-L> gt
+nnoremap <C-H> gT
+
+" arrows:
 map <S-Left> gT
 map <S-Right> gt
+
+" splits
+" splits navigation
+nnoremap <leader>j <C-W><C-J>
+nnoremap <leader>k <C-W><C-K>
+nnoremap <leader>l <C-W><C-L>
+nnoremap <leader>h <C-W><C-H>
+
+" open vertical split to the right
+set splitright
 
 " highlight cursor line
 set cursorline
