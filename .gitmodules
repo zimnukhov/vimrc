@@ -13,3 +13,6 @@
 [submodule "modules/tagbar"]
 	path = modules/tagbar
 	url = https://github.com/majutsushi/tagbar
+[submodule "modules/auto-pairs"]
+	path = modules/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
