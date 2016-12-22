@@ -26,7 +26,7 @@ full: standard
 	git clone modules/vim-go $(BUILDDIR)/.vim/bundle/vim-go
 	$(LOAD_MODULE) modules/tagbar
 	git clone modules/tagbar $(BUILDDIR)/.vim/bundle/tagbar
-	cat osx.vim russian.vim go.vim >>$(BUILDDIR)/.vimrc
+	cat plugins.vim osx.vim russian.vim go.vim >>$(BUILDDIR)/.vimrc
 
 install: $(BUILDDIR)/.vimrc
 	cp $(BUILDDIR)/.vimrc $(VIMDIR)/.vimrc
