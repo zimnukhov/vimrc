@@ -47,8 +47,8 @@ nnoremap <leader>h <C-W><C-H>
 " open vertical split to the right
 set splitright
 
-" highlight cursor line
-set cursorline
+" turn off cursor line for speed
+set nocursorline
 
 " tab settings
 set shiftwidth=4
