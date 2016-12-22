@@ -14,8 +14,6 @@ standard:
 	cp modules/molokai/colors/molokai.vim $(BUILDDIR)/.vim/colors/
 	$(LOAD_MODULE) modules/file-line
 	cp modules/file-line/plugin/file_line.vim $(BUILDDIR)/.vim/plugin
-	$(LOAD_MODULE) modules/auto-pairs
-	git clone modules/auto-pairs $(BUILDDIR)/.vim/bundle/auto-pairs
 	cat base.vim colors.vim >$(BUILDDIR)/.vimrc
 
 full: standard
