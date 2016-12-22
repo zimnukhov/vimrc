@@ -30,7 +30,7 @@ full: standard
 
 install: $(BUILDDIR)/.vimrc
 	cp $(BUILDDIR)/.vimrc $(VIMDIR)/.vimrc
-	cp -R $(BUILDDIR)/.vim $(VIMDIR)/.vim
+	cp -R $(BUILDDIR)/.vim/ $(VIMDIR)/.vim
 
 clean:
 	rm -rf $(BUILDDIR)
